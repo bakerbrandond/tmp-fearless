@@ -2,9 +2,9 @@
   "name": "purple_cow",
   "version": "1.0.0",
   "description": "fearless assessment",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "ENVIRONMENT=$ENVIRONMENT node index.js"
+    "start": "ENVIRONMENT=$ENVIRONMENT node server.js"
   },
   "author": "Brandon Baker",
   "license": "MIT",
