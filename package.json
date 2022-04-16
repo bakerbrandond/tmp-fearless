@@ -1,0 +1,16 @@
+{
+  "name": "purple_cow",
+  "version": "1.0.0",
+  "description": "fearless assessment",
+  "main": "index.js",
+  "scripts": {
+    "start": "ENVIRONMENT=$ENVIRONMENT node index.js"
+  },
+  "author": "Brandon Baker",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.16.4"
+  }
+}
