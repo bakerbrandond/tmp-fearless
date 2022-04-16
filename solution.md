@@ -1,11 +1,11 @@
 Environment variables:
     PORT : host port for the web service, default 3000
 
-Installation:
-    npm install
+Installation (build the docker image):
+    docker build -t purple-cow .
 
 Running the server:
-    npm start
+    docker run -dp 3000:3000 purple-cow
 
 TODO:
     Add Makefile to manage installation and run.
